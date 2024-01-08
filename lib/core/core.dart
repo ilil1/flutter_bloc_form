@@ -6,7 +6,6 @@ export 'bloc/common_event.dart';
 export 'bloc/common_state.dart';
 export 'config/config.dart';
 export 'config/logger.dart';
-export 'config/messages.dart';
 export 'config/router.dart';
 export 'config/style.dart';
 export 'config/theme.dart';
