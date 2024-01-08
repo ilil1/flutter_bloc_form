@@ -29,12 +29,12 @@ bool isMaximum(ScrollController controller, {bool edge = false}) {
   return currentScroll == maxScroll;
 }
 
-String dateParser(DateTime? date, {String? pattern}) {
+String dateFormatter(DateTime? date, {String? pattern}) {
   if (date == null) return '';
   return DateFormat(pattern ?? 'yyyy년 MM월 dd일').format(date);
 }
 
-DateTime dateFormatter(String? date) {
+DateTime dateParser(String? date) {
   if (date == null) return DateTime.now().toUtc();
   final result = date.replaceAll(RegExp(r'[년월일]'), '-').replaceAll(' ', '');
   return DateTime.parse(result).toUtc();

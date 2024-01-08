@@ -26,7 +26,6 @@ dependencies:
   #view
   cupertino_icons: ^1.0.2
   flutter_svg: ^2.0.9
-  shimmer: ^3.0.0
   flutter_animate: ^4.3.0
   cached_network_image: ^3.3.0
 
@@ -36,11 +35,6 @@ dependencies:
   intl: ^0.18.1
   intl_translation: ^0.18.2
   flutter_gen: ^5.3.2
-
-
-  #firebase
-  firebase_core: ^2.20.0
-  firebase_performance: ^0.9.3+6
 
   flutter_localizations:
     sdk: flutter

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class SvgImage extends StatelessWidget {
-  const SvgImage(this.assetName, {Key? key, this.color, this.height, this.width}) : super(key: key);
+  const SvgImage(this.assetName, {super.key, this.color, this.height, this.width});
 
   final String assetName;
   final Color? color;
